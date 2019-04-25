@@ -3,7 +3,7 @@ var meme2;
 
 function preload() {
   // Loads the sound file into the variable
-  meme = loadSound('rickroll.mp3');
+  meme = loadSound('rickrollcut.mp3');
   meme2 = loadImage('rick.png');
 }
 
