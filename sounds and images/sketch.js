@@ -12,7 +12,7 @@ function setup() {
   createCanvas(1021, 768);
   //plays sound
   meme.setVolume(0.15);
-  meme.play(1);
+  meme.play();
   //loads image onto canvas
   image(meme2,0,0);
 }
