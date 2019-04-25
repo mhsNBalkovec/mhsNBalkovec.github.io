@@ -10,9 +10,11 @@ function preload() {
 
 function setup() {
   createCanvas(1021, 768);
-  //plays sound
-  meme.setVolume(0.15);
-  meme.play();
-  //loads image onto canvas
+  //shows image on canvas
   image(meme2,0,0);
+  if (keyIsPressed(32)) {
+    //plays sound
+    mySound.setVolume(0.1);
+    mySound.play();
+  }
 }
