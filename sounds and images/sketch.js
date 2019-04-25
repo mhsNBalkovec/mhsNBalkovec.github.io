@@ -9,8 +9,11 @@ function preload() {
 }
 
 function setup() {
+ function setup() {
   createCanvas(1021, 768);
-  mySound.setVolume(0.1);
-  mySound.play();
   image(meme2,0,0);
-}
+  if (keyPressed(32)) {
+    mySound.setVolume(0.1);
+    mySound.play();
+  }
+ }
