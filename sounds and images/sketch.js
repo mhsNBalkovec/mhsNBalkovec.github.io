@@ -13,7 +13,7 @@ function setup() {
   createCanvas(1021, 768);
   image(meme2,0,0);
   if (keyPressed(32)) {
-    mySound.setVolume(0.1);
-    mySound.play();
+    meme.setVolume(0.1);
+    meme.play();
   }
  }
