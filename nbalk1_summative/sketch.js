@@ -109,6 +109,8 @@ function draw() {
       print("1 Point");
       appleX = floor(random(width/10-1)+1)*10;
       appleY = floor(random(height/10-1)+1)*10;
+      appleBite.setVolume(0.1);
+      appleBite.play();
       stop(1);
       score+=1;
     }
