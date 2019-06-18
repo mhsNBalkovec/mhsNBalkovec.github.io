@@ -113,7 +113,7 @@ function draw() {
       score+=1;
     }
     dotCollideColour = get(snakeHeadX,snakeHeadY);
-    print(appleCollideColour)
+    print(dotCollideColour)
     //checks to see if cube is touching dot
     for (let i=0; i<4; i+=1){
       if (dotCollideColour[i]!=dotColour[i]){
